@@ -19,8 +19,10 @@ In the game, run: https://github.com/karmabum/ares-bingo-plugin
 
 If you don't have any edits to your custom-routes.js already, you can replace it with the custom_files/custom-routes.js.  Otherwise, you need to add:
 
-`router.route('prompts');
-router.route('bingo');`
+````
+router.route('prompts');
+router.route('bingo');
+````
 
 ## Adding Menu Items to the Webportal
 
