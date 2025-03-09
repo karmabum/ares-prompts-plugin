@@ -1,0 +1,121 @@
+---
+prompts:
+  achievements:
+    bingo:
+      type: story
+      message: Completed Roleplay Bingo.
+    bingo_z:
+      type: story
+      message: Blacked out a Roleplay Bingo card.
+  rp_prompts:
+  - Dragons compete to see whose dragon can catch a herdbeast fastest.
+  - A cook is looking for help gathering fresh herbs near the Weyr.
+  - Candidate and riders chat while oiling dragons.
+  - Caught in a random downpour/snowfall and duck into the stables.
+  - Someone finds an old songbook and tries to remember the tune.
+  - Tried to learn or teach someone to throw knives with mixed results.
+  - A Harper plays and a small, impromptu dance-hall takes over the Living Cavern.
+  - A runnerbeast escaped and is running crazily around the bowl.
+  - A cook needs a volunteer to taste-test the latest batch of bubbly pies.
+  - See who catches the biggest fish out of the Weyr lake.
+  - A clumsy firelizard is being a pest in the Living Cavern, knocking over everything.
+  - Someone knocked over an entire rack of scrolls in the archives.
+  - Practice dancing in preparation for an upcoming Gather.
+  - Someone found an unusual-looking seashell.
+  - Try to start a fire with damp wood, with limited success.
+  - A skipping-stone competition by the lake.
+  - A tunnelsnake in the storerooms.
+  - Rock-climbing in the bowl, climbing to the highest ledge.
+  - Spilled a bottle of ink in the records room.
+  - Stuck in a tight alcove and needs help getting free.
+  - A firelizard brings back someone else's shoulder knot.
+  - A friendly wager over who can stay silent the longest.
+  - Dawn sweeps over a cold, icy hold to the north.
+  - The end of sweeps over Boll, time for a dip in the ocean.
+  - Roped into helping replace glowbaskets in the inner Weyr.
+  - Tasked with transporting the son or daughter of a Lord or Lady.
+  - Giving a ride to a high-ranking Crafter.
+  - Being fitted for new riding leathers.
+  - Stopping at the Oasis near Igen after sweeps.
+  - A dunk in the Ruathan Ice Lake after a hot afternoon of drills.
+  - Flagged down after Threadfall to deal with a burrow.
+  - Saw an interesting trade caravan while flying sweeps.
+  - Approached by a trader peddling cure all juice.
+  - Approached by a shady trader selling counterfeit gems.
+  - Lost a bet and now have to do something embarrassing.
+  - Spotted smoke on sweeps and help put out a small wildfire.
+  - A special errand to retrieve ice from the Northern Wastes for a party.
+  - Someone knocked over the klah pot.  Now you have to wait for a fresh brew.
+  - Tunnelsnakes have been spotted in the wine cellar.
+  - Telling stories around the nighthearth on a stormy evening.
+  - Rumors of a very large fish in the lake have people trying to catch it.
+  - Help unload a tithe train in the inner Weyr.
+  - Grab a drink at the Shanty near Tillek Hold after sweeps.
+  - Delivering a message to Two Crafts Hold in the Fort region.
+  - While at Harper Hall, overhear a group of apprentices practicing.
+  - Time to harvest needlethorn in the jungles near Nerat Hold.
+  - Counting shooting stars during a meteor shower.
+  - A layover at Southern Weyr while delivering a message.
+  - Head to the Black Sand Beach near Ista and build a sandhold.
+  - A pod of shipfish has been seen playing near Fort Seahold.
+  - Moonflowers are blooming near Nerat Hold.  Enjoy the rare sight.
+  - Lost your laundry on the way from the caverns across the bowl,  and got some help
+    collecting it.
+  - Practice sparring with wooden swords or staves near the training grounds.
+  - 'Discover a strange fossil while digging in a sandy part of the Weyr''s  outskirts.  '
+  - An aurora lights up the night sky while flying sweeps in the Northern Wastes.
+  - A firestone bag splits open during drills, causing chaos.
+  - Someone tries to bake, but the result is hilariously terrible.
+  - Time for a new pair of boots.
+  - A friendly game of dragonpoker turns heated.
+  - Help an apprentice recover a lost instrument so they don't get busted.
+  - A nervous Candidate's first Hatching.
+  - A firelizard stubbornly refuses to give up its "treasure."
+  - Get tangled up in riding straps.
+  - Try to navigate a flooded tunnel after heavy rains.
+  - Practice throwing firestone sacks with weyrlings.
+  - A friendly race between riders turns unexpectedly competitive.
+  - A Harper begins an impromptu performance that draws a curious crowd.
+  - Find a reason to spend a luck point.
+  - Someone finds a long-lost stash of vintage klah beans.
+  - Spot an unusual constellation while stargazing during night sweeps.
+  - 'Alphabet posing: The first pose starts with A, second with B, then C and so on.  If
+    you get to Z, start over.'
+  - Learn something new about someone.
+  - Take a wrong turn in the lower caverns and get a little lost/sidetracked.
+  - Take a stroll by the lake in the moonlight.
+  - Find something perfect in the storerooms.
+  - Sip some klah in the living cavern and start up a conversation.  Seriously.
+  - Can't sleep because of a bad dream or nightmare.
+  - Listening in on a conversation the other people don't know you can overhear...
+  - Get accidentally locked in a cavern and have to wait for someone to come with
+    the keys.
+  - Visit somewhere you've never been before.
+  - A scene in the Bathing Cavern.  You know you want to.
+  - Get caught telling a little white lie.
+  - Interrupting/being interrupted while studying for something important.
+  - Every pose is three sentences, maximum.
+  - A package with no name is left in the living cavern.  Open it or not?
+  - Find out or share a(n embarrasing) childhood nickname.
+  - Trying to make a midnight snack in the kitchens.
+  - An entire scene without using the word DRAGON even once.
+  - Just dragons.
+  - Randomly find an item thought lost long ago.
+  - Each person in the scene picks a letter. Every pose starts with that letter.
+  - 'Construct every pose with the simple forumla: Character verbs adverbly.  "Dialogue."'
+  - Deliver care packages to people convalescing at Southern Weyr.
+  - Encounter an old friend or relative.
+  - Play an instrument.  Even if you don't know how.
+  - Heard the opening line of a joke, but don't know the punchline.  Ask people if
+    they know how it ends.
+  - There are no towels in the bathing cavern.
+  - Someone delivered a letter to you by mistake.  Get it to the right person.
+  - The aftermath of a dragon flight.
+  - Write a slice-of-life vignette.
+  - Got someone else's laundry.
+  shortcuts:
+    prompt: prompts
+    randscene: prompts
+    scene/prompt: prompts
+    scene/random: prompts
+    bingo: prompts/bingo
