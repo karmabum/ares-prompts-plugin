@@ -11,6 +11,8 @@ Using the `prompts [#]` command, players can see a list of random RP prompts, up
 
 This plugin is designed to work with the webportal.  You will need to update your custom-routes.js to activate the bingo and prompts pages.
 
+## 
+
 # Installation
 
 In the game, run: `plugin/install https://github.com/karmabum/ares-prompts-plugin`
@@ -40,3 +42,7 @@ You can then navigate to "yourgame.com/prompts" and "yourgame.com/bingo" to view
 # Configuration
 
 After installation, check the prompts.yml config files and update **rp_prompts** to suit your theme.
+
+# License
+
+Same as [AresMUSH](https://aresmush.com/license).
