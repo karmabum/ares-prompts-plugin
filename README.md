@@ -13,7 +13,7 @@ This plugin is designed to work with the webportal and has a couple of additiona
 
 # Installation
 
-In the game, run: `plugin/install https://github.com/karmabum/ares-bingo-plugin`
+In the game, run: `plugin/install https://github.com/karmabum/ares-prompts-plugin`
 
 ## Updating Custom Files
 
