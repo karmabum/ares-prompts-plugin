@@ -17,4 +17,4 @@ In the game, run: https://github.com/karmabum/ares-bingo-plugin
 
 ## Updating Custom Files
 
-If you don't have any edits to your custom 
+If you don't have any edits to your custom-routes.js already, you can replace it with the custom_files/custom-routes.js
