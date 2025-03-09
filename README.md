@@ -17,4 +17,22 @@ In the game, run: https://github.com/karmabum/ares-bingo-plugin
 
 ## Updating Custom Files
 
-If you don't have any edits to your custom-routes.js already, you can replace it with the custom_files/custom-routes.js
+If you don't have any edits to your custom-routes.js already, you can replace it with the custom_files/custom-routes.js.  Otherwise, you need to add:
+
+`router.route('prompts');
+router.route('bingo');`
+
+## Adding Menu Items to the Webportal
+
+Add the updated routes to your menu using:
+
+```
+    - title: 'Random Scene Prompts'
+      route: prompts
+    - title: 'RP Bingo Card'
+      route: bingo
+```
+
+# Configuration
+
+After installation, check the prompts.yml config files and update **rp_prompts** to suit your theme.
