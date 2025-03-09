@@ -1,0 +1,10 @@
+<%= header %>
+<%= center("Random Prompts", 78) %>
+<%= divider %>
+
+<% prompts.each_with_index do |prompt, index| %>
+  <%# Render each prompt %>
+* <%= prompt %>
+<% end %>
+
+<%= footer %>
