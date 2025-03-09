@@ -1,0 +1,37 @@
+{{page-title "Roleplay Bingo"}}
+<h1>Roleplay Bingo</h1>
+
+<p>Copy and paste the code below and add it to your profile to create a Roleplay Bingo card.</p>
+
+<pre>
+<code>
+{{this.model.formatted_card}}
+</code>
+</pre>
+
+<div style="margin-top: 20px;">
+  <button {{action 'refreshBingo'}} class="btn btn-secondary">Generate a New Bingo Card</button>
+</div>
+
+<h2>Your Bingo Card</h2>
+
+<table class="table table-bordered rp-bingo-card">
+  <thead>
+    <tr>
+      <th>B</th>
+      <th>I</th>
+      <th>N</th>
+      <th>G</th>
+      <th>O</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each this.model.bingo_card as |row|}}
+    <tr>
+      {{#each row as |prompt|}}
+      <td>{{prompt}}</td>
+      {{/each}}
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
