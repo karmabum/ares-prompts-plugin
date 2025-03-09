@@ -1,0 +1,17 @@
+<%= header %>
+<%= center("Roleplay Bingo Card", 78) %>
+<%= divider %>
+
+Copy and paste the code below and add it to your profile to create a Roleplay Bingo card.
+
+[[div class="rp-bingo"]]
+
+| B | I | N | G | O |
+| ----- | ----- | ----- | ----- | ----- |
+<% bingo_card.each do |row| %>
+| <% row.each do |prompt| %> <%= prompt.ljust(20) %> | <% end %>
+<% end %>
+
+[[/div]]
+
+<%= footer %>
