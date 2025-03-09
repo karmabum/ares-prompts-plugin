@@ -5,7 +5,7 @@ module AresMUSH
 
       def initialize(prompts)
         self.prompts = prompts
-        super File.dirname(__FILE__) + "/prompts.erb"  # path to your template file
+        super File.dirname(__FILE__) + "/prompts.erb" 
       end
 
       def render
