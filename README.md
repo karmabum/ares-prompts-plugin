@@ -39,6 +39,38 @@ Add the updated routes to your menu using:
 
 You can then navigate to "yourgame.com/prompts" and "yourgame.com/bingo" to view those pages.
 
+## Bingo CSS
+
+Some recommended styling to make the Bingo table look right.
+
+````
+.rp-bingo table {
+    text-align: center;
+    width: 100%;
+}
+
+.rp-bingo td {
+    border: 1px solid;
+    width: 20%;
+}
+
+.rp-bingo-card td {
+    width: 20%;
+}
+
+/* This should highlight any cells that are linked, have the strinke or delete tags, and the FREE SPACE so they stand out as complete. */
+
+.rp-bingo td:has(a), .rp-bingo td:has(strike), .rp-bingo td:has(del), .rp-bingo tr:nth-of-type(3) td:nth-of-type(3) {
+    background-color: red; /* Change this to whatever color you want to highlight completed cells. */
+}
+
+.rp-bingo-card {
+    text-align: center;
+    width: 100%;
+    border: 1px solid;
+}
+````
+
 # Configuration
 
 After installation, check the prompts.yml config files and update **rp_prompts** to suit your theme.
