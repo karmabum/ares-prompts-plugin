@@ -7,9 +7,9 @@ KarmaBum @ AresCentral
 # Overview
 This plugin has two functions: It outputs a short list of random RP prompts and uses the same list to create a roleplay BINGO card.
 
-Using the `prompts [#]` command, players can see a list of random RP prompts, up to [#} (default is 5).  Using the `bingo` command, they can create a copy-paste friendly BINGO sheet.
+Using the `prompts [#]` command, players can see a list of random RP prompts, up to [#] (default is 5).  Using the `bingo` command, they can create a copy-paste friendly BINGO sheet.
 
-This plugin is designed to work with the webportal and has a couple of additional steps to complete that functionality.
+This plugin is designed to work with the webportal.  You will need to update your custom-routes.js to activate the bingo and prompts pages.
 
 # Installation
 
@@ -34,6 +34,8 @@ Add the updated routes to your menu using:
     - title: 'RP Bingo Card'
       route: bingo
 ```
+
+You can then navigate to "yourgame.com/prompts" and "yourgame.com/bingo" to view those pages.
 
 # Configuration
 
