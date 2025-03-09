@@ -39,6 +39,12 @@ Add the updated routes to your menu using:
 
 You can then navigate to "yourgame.com/prompts" and "yourgame.com/bingo" to view those pages.
 
+## Adding and Awarding Achievements
+
+This doesn't automatically award achievements.  There are two general achievements configured - one for getting a BINGO and one for getting a blackout.  You can add whatever other ones you want using the same format.  You can award them using the existing achievement command:
+
+`achievement/add <list of names>=<achievement_name>` - e.g., `achievement/add Bill Sue=bingo`
+
 # Configuration
 
 After installation, check the prompts.yml config files and update **rp_prompts** to suit your theme.
