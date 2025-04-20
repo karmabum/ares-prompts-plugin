@@ -8,6 +8,6 @@
 </ul>
 
 <div style="margin-left: 10px;">
-  <button {{action 'refreshPrompts'}} class="btn btn-secondary">Load 5 More</button>
+  <button {{on 'click' this.refreshPrompts}} class="btn btn-secondary">Load 5 More</button>
   <a class="ember-view btn btn-primary" href="/scene/create">Start a New Scene</a>
 </div>
