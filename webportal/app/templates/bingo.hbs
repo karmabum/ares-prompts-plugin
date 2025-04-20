@@ -10,10 +10,11 @@
 </pre>
 
 <div style="margin-top: 20px;">
-  <button {{action 'refreshBingo'}} class="btn btn-secondary">Generate a New Bingo Card</button>
+  <button {{on 'click' this.refreshBingo}} class="btn btn-secondary">Generate a New Bingo Card</button>
 </div>
 
 <h2>Your Bingo Card</h2>
+<caption>Your Roleplay Bingo Card</caption>
 
 <table class="table table-bordered rp-bingo-card">
   <thead>
