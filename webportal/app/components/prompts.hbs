@@ -1,0 +1,13 @@
+{{page-title "Random Scene Prompts"}}
+<h1>Random Scene Prompts</h1>
+
+<ul>
+  {{#each this.model.prompts as |prompt|}}
+    <li>{{prompt}}</li>
+  {{/each}}
+</ul>
+
+<div style="margin-left: 10px;">
+  <button {{on 'click' this.refreshPrompts}} class="btn btn-secondary">Load 5 More</button>
+  <a class="ember-view btn btn-primary" href="/scene/create">Start a New Scene</a>
+</div>
