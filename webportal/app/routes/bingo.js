@@ -6,16 +6,7 @@ export default Route.extend(DefaultRoute, {
   gameApi: service(),
 
   model() {
-    let api = this.gameApi;
-    return api.requestOne('bingo');
-  },
-
-  actions: {
-    refreshBingo() {
-      let api = this.gameApi;
-      api.requestOne('bingo').then((newBingo) => {
-        this.controller.set('model', newBingo);
-      });
-    }
+    return this.gameApi.requestOne('bingo');
   }
+
 });
